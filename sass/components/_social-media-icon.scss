@@ -1,0 +1,16 @@
+.social-media-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  .social-media-link:hover &,
+  .social-media-link:focus & {
+    fill: $primaryBgColor;
+  }
+
+  &-footer {
+    fill: $primaryBgColor;
+  }
+}

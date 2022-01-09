@@ -1,0 +1,36 @@
+.work {
+  @media screen and (max-width: 1199px){
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 94px;
+    background-color: $primaryBgColor;
+  }
+}
+
+.work-title {
+  
+  @media screen and (max-width: 1199px){
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
+  color: $titleTextColor;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+}

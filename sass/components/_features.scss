@@ -1,0 +1,47 @@
+.features {
+  background-color: $primaryBgColor;
+  
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+
+    h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: $titleTextColor;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+
+      @media screen and (max-width:767px) {
+        text-align: center;
+      }
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+    }
+  }
+
+.features-description {
+    color: $primaryTextColor;
+    margin-bottom: -30px;
+    
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+}
+}
